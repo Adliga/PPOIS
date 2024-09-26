@@ -1,0 +1,4 @@
+﻿  test.cpp
+D:\Study\VisualStudio\test\test\test.cpp(82,20): warning C4267: инициализация: преобразование из "size_t" в "int"; возможна потеря данных
+D:\Study\VisualStudio\test\test\test.cpp(118,20): warning C4267: инициализация: преобразование из "size_t" в "int"; возможна потеря данных
+  test.vcxproj -> D:\Study\VisualStudio\test\x64\Debug\test.exe
