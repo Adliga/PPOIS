@@ -16,8 +16,6 @@ private:
 public:
     Announcement(Property* property, Landlord* landlord, const std::string& description);
 
-    /*std::string getDescription() const;*/
-
     void displayAnnouncementInfo() const;
 };
 

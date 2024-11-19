@@ -4,7 +4,7 @@ User::User(const std::string& name, const std::string& email, const std::string&
     : name(name), email(email), role(role) {}
 
 void User::displayUserInfo() const {
-    std::cout << "Имя: " << name << "\n";
+    std::cout << "Name: " << name << "\n";
     std::cout << "Email: " << email << "\n";
-    std::cout << "Роль: " << role << "\n";
+    std::cout << "Role: " << role << "\n";
 }
