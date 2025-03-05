@@ -1,0 +1,15 @@
+$ coverage report
+Name              Stmts   Miss  Cover
+-------------------------------------
+dish.py               3      0   100%
+egg.py                9      1    89%
+oil.py                4      0   100%
+pan.py               98      9    91%
+salt.py               3      0   100%
+spatula.py            4      0   100%
+spices.py             3      1    67%
+states.py            20      0   100%
+stove.py             14      5    64%
+test_cooking.py     215      1    99%
+-------------------------------------
+TOTAL               373     17    95%
