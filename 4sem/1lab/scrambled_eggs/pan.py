@@ -28,8 +28,12 @@ class Pan:
             print("Сковорода разогрета!")
 
     def add_oil(self, oil) -> None:
+        if any(isinstance(i, Oil) for i in self.ingredients):
+            raise ValueError("Масло уже добавлено!")
+    
         self.ingredients.append(oil)
         print("Масло добавлено в сковороду.")
+    
 
     def heat_oil(self) -> None:
         if self.state != PanState.HOT:
@@ -48,19 +52,19 @@ class Pan:
 
         if isinstance(ingredient, Egg):
             if any(isinstance(i, Egg) for i in self.ingredients):
-                raise ValueError("Яйцо уже добавлено в сковороду!")            
+                raise ValueError("Яйца уже добавлены в сковороду!")            
             if ingredient.state != EggState.BROKEN:
-                raise ValueError("Яйцо должно быть разбито!")
+                raise ValueError("Яйца должны быть разбиты!")
             if self.oil_state != OilState.HEATED:
-                raise ValueError("Нельзя добавить яйцо без разогретого масла!")
+                raise ValueError("Нельзя добавить яйца без разогретого масла!")
             
         if isinstance(ingredient, (Salt, Spices)) and not any(isinstance(i, Egg) for i in self.ingredients):
-            raise ValueError("Нельзя добавлять соль или специи без яйца в сковороде!")    
+            raise ValueError("Нельзя добавлять соль или специи без яиц в сковороде!")    
 
         self.ingredients.append(ingredient)
 
         if isinstance(ingredient, Egg):
-            print("Яйцо добавлено в сковороду.")
+            print("Яйц(а) добавлены в сковороду.")
         if isinstance(ingredient, Salt):
             print("Яичница посолена.")
         if isinstance(ingredient, Spices):
@@ -69,7 +73,7 @@ class Pan:
     def fry(self) -> None:
         egg = next((i for i in self.ingredients if isinstance(i, Egg)), None)
         if egg is None:
-            raise ValueError("В сковороде нет яйца для жарки!")
+            raise ValueError("В сковороде нет яиц для жарки!")
 
         if self.state != PanState.HOT:
             raise ValueError("Сковорода должна быть горячей для обжарки!")
@@ -85,7 +89,7 @@ class Pan:
             return
     
         egg.state = EggState.FRYING
-        print(f"Яйцо обжаривается... ({self.fry_count}/3)")
+        print(f"Яйца обжариваются... ({self.fry_count}/3)")
 
         if self.fry_count == 3:
             egg.state = EggState.COOKED
@@ -93,7 +97,7 @@ class Pan:
     
     def mix(self, spatula) -> None:
         if self.fry_count == 0:
-            raise ValueError("Сначала нужно обжарить яйцо!")
+            raise ValueError("Сначала нужно обжарить яйца!")
 
         self.mixed = True
         spatula.state = SpatulaState.USED 
@@ -125,3 +129,5 @@ class Pan:
         self.fry_count = 0
         self.mixed = False
 
+    def get_state(self):
+        return self.state

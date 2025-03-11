@@ -19,3 +19,13 @@ class Stove:
         self.state = StoveState.OFF
       
         print("Плита выключена.")
+
+    def turn_off(self, pan_state: str) -> None:
+        if self.state == StoveState.OFF:
+            raise ValueError("Ошибка: Плита уже выключена.")
+        
+        if pan_state == PanState.HOT:
+            raise ValueError("Нельзя прервать священный процесс готовки!")
+
+        self.state = StoveState.OFF
+        print("Плита выключена.")
