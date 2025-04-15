@@ -1,0 +1,411 @@
+<?xml version='1.0' encoding='utf-8'?>
+<books>
+    <book>
+        <title>Вечный зов</title>
+        <author>Анатолий Иванов</author>
+        <publisher>ЛитРес</publisher>
+        <volumes>6</volumes>
+        <circulation>500</circulation>
+        <total_volumes>3000</total_volumes>
+    </book>
+    <book>
+        <title>Пепел и алмаз</title>
+        <author>Ежи Анджеевский</author>
+        <publisher>Питер</publisher>
+        <volumes>3</volumes>
+        <circulation>450</circulation>
+        <total_volumes>1350</total_volumes>
+    </book>
+    <book>
+        <title>Замок</title>
+        <author>Франц Кафка</author>
+        <publisher>Альпина</publisher>
+        <volumes>4</volumes>
+        <circulation>550</circulation>
+        <total_volumes>2200</total_volumes>
+    </book>
+    <book>
+        <title>Девушка, которая играла с огнём</title>
+        <author>Стиг Ларссон</author>
+        <publisher>МИФ</publisher>
+        <volumes>5</volumes>
+        <circulation>600</circulation>
+        <total_volumes>3000</total_volumes>
+    </book>
+    <book>
+        <title>Овод</title>
+        <author>Этель Лилиан Войнич</author>
+        <publisher>Corpus</publisher>
+        <volumes>2</volumes>
+        <circulation>400</circulation>
+        <total_volumes>800</total_volumes>
+    </book>
+    <book>
+        <title>Двенадцатая ночь</title>
+        <author>Уильям Шекспир</author>
+        <publisher>ЛитРес</publisher>
+        <volumes>2</volumes>
+        <circulation>350</circulation>
+        <total_volumes>700</total_volumes>
+    </book>
+    <book>
+        <title>Песнь о Нибелунгах</title>
+        <author>Неизвестный автор</author>
+        <publisher>Питер</publisher>
+        <volumes>7</volumes>
+        <circulation>450</circulation>
+        <total_volumes>3150</total_volumes>
+    </book>
+    <book>
+        <title>Оно</title>
+        <author>Стивен Кинг</author>
+        <publisher>Альпина</publisher>
+        <volumes>8</volumes>
+        <circulation>550</circulation>
+        <total_volumes>4400</total_volumes>
+    </book>
+    <book>
+        <title>Калигула</title>
+        <author>Альбер Камю</author>
+        <publisher>МИФ</publisher>
+        <volumes>2</volumes>
+        <circulation>400</circulation>
+        <total_volumes>800</total_volumes>
+    </book>
+    <book>
+        <title>Чтец</title>
+        <author>Бернхард Шлинк</author>
+        <publisher>Corpus</publisher>
+        <volumes>3</volumes>
+        <circulation>500</circulation>
+        <total_volumes>1500</total_volumes>
+    </book>
+    <book>
+        <title>Государь</title>
+        <author>Никколо Макиавелли</author>
+        <publisher>ЛитРес</publisher>
+        <volumes>1</volumes>
+        <circulation>600</circulation>
+        <total_volumes>600</total_volumes>
+    </book>
+    <book>
+        <title>Путешествия Гулливера</title>
+        <author>Джонатан Свифт</author>
+        <publisher>Питер</publisher>
+        <volumes>4</volumes>
+        <circulation>450</circulation>
+        <total_volumes>1800</total_volumes>
+    </book>
+    <book>
+        <title>В дороге</title>
+        <author>Джек Керуак</author>
+        <publisher>Альпина</publisher>
+        <volumes>3</volumes>
+        <circulation>400</circulation>
+        <total_volumes>1200</total_volumes>
+    </book>
+    <book>
+        <title>Смерть в Венеции</title>
+        <author>Томас Манн</author>
+        <publisher>МИФ</publisher>
+        <volumes>2</volumes>
+        <circulation>350</circulation>
+        <total_volumes>700</total_volumes>
+    </book>
+    <book>
+        <title>Тропик Рака</title>
+        <author>Генри Миллер</author>
+        <publisher>Corpus</publisher>
+        <volumes>4</volumes>
+        <circulation>500</circulation>
+        <total_volumes>2000</total_volumes>
+    </book>
+    <book>
+        <title>Три сестры</title>
+        <author>Антон Чехов</author>
+        <publisher>ЛитРес</publisher>
+        <volumes>2</volumes>
+        <circulation>400</circulation>
+        <total_volumes>800</total_volumes>
+    </book>
+    <book>
+        <title>Дары волхвов</title>
+        <author>О. Генри</author>
+        <publisher>Питер</publisher>
+        <volumes>1</volumes>
+        <circulation>550</circulation>
+        <total_volumes>550</total_volumes>
+    </book>
+    <book>
+        <title>Волшебная гора</title>
+        <author>Томас Манн</author>
+        <publisher>Альпина</publisher>
+        <volumes>6</volumes>
+        <circulation>500</circulation>
+        <total_volumes>3000</total_volumes>
+    </book>
+    <book>
+        <title>Песнь о Роланде</title>
+        <author>Неизвестный автор</author>
+        <publisher>МИФ</publisher>
+        <volumes>5</volumes>
+        <circulation>450</circulation>
+        <total_volumes>2250</total_volumes>
+    </book>
+    <book>
+        <title>Одиссея</title>
+        <author>Гомер</author>
+        <publisher>Corpus</publisher>
+        <volumes>7</volumes>
+        <circulation>600</circulation>
+        <total_volumes>4200</total_volumes>
+    </book>
+    <book>
+        <title>Человек в высоком замке</title>
+        <author>Филип К. Дик</author>
+        <publisher>ЛитРес</publisher>
+        <volumes>3</volumes>
+        <circulation>450</circulation>
+        <total_volumes>1350</total_volumes>
+    </book>
+    <book>
+        <title>Госпожа Бовари</title>
+        <author>Гюстав Флобер</author>
+        <publisher>Питер</publisher>
+        <volumes>4</volumes>
+        <circulation>500</circulation>
+        <total_volumes>2000</total_volumes>
+    </book>
+    <book>
+        <title>Сквозь снег</title>
+        <author>Бенджамин Легран</author>
+        <publisher>Альпина</publisher>
+        <volumes>2</volumes>
+        <circulation>400</circulation>
+        <total_volumes>800</total_volumes>
+    </book>
+    <book>
+        <title>Кысь</title>
+        <author>Татьяна Толстая</author>
+        <publisher>МИФ</publisher>
+        <volumes>3</volumes>
+        <circulation>450</circulation>
+        <total_volumes>1350</total_volumes>
+    </book>
+    <book>
+        <title>Сон в красном тереме</title>
+        <author>Цао Сюэцинь</author>
+        <publisher>Corpus</publisher>
+        <volumes>9</volumes>
+        <circulation>550</circulation>
+        <total_volumes>4950</total_volumes>
+    </book>
+    <book>
+        <title>Двенадцать</title>
+        <author>Александр Блок</author>
+        <publisher>ЛитРес</publisher>
+        <volumes>1</volumes>
+        <circulation>350</circulation>
+        <total_volumes>350</total_volumes>
+    </book>
+    <book>
+        <title>Рассказы</title>
+        <author>Эдгар Аллан По</author>
+        <publisher>Питер</publisher>
+        <volumes>3</volumes>
+        <circulation>500</circulation>
+        <total_volumes>1500</total_volumes>
+    </book>
+    <book>
+        <title>Сага о Форсайтах</title>
+        <author>Джон Голсуорси</author>
+        <publisher>Альпина</publisher>
+        <volumes>8</volumes>
+        <circulation>600</circulation>
+        <total_volumes>4800</total_volumes>
+    </book>
+    <book>
+        <title>Кукольный дом</title>
+        <author>Генрик Ибсен</author>
+        <publisher>МИФ</publisher>
+        <volumes>2</volumes>
+        <circulation>400</circulation>
+        <total_volumes>800</total_volumes>
+    </book>
+    <book>
+        <title>Мёртвый сезон</title>
+        <author>Габриэль Гарсия Маркес</author>
+        <publisher>Corpus</publisher>
+        <volumes>3</volumes>
+        <circulation>450</circulation>
+        <total_volumes>1350</total_volumes>
+    </book>
+    <book>
+        <title>Золотой телёнок</title>
+        <author>Илья Ильф, Евгений Петров</author>
+        <publisher>ЛитРес</publisher>
+        <volumes>4</volumes>
+        <circulation>500</circulation>
+        <total_volumes>2000</total_volumes>
+    </book>
+    <book>
+        <title>Будденброки</title>
+        <author>Томас Манн</author>
+        <publisher>Питер</publisher>
+        <volumes>6</volumes>
+        <circulation>550</circulation>
+        <total_volumes>3300</total_volumes>
+    </book>
+    <book>
+        <title>Тихий Дон</title>
+        <author>Михаил Шолохов</author>
+        <publisher>Альпина</publisher>
+        <volumes>10</volumes>
+        <circulation>600</circulation>
+        <total_volumes>6000</total_volumes>
+    </book>
+    <book>
+        <title>Гарри Поттер и кубок огня</title>
+        <author>Дж.К. Роулинг</author>
+        <publisher>МИФ</publisher>
+        <volumes>5</volumes>
+        <circulation>650</circulation>
+        <total_volumes>3250</total_volumes>
+    </book>
+    <book>
+        <title>Капитал</title>
+        <author>Карл Маркс</author>
+        <publisher>Corpus</publisher>
+        <volumes>7</volumes>
+        <circulation>450</circulation>
+        <total_volumes>3150</total_volumes>
+    </book>
+    <book>
+        <title>Доктор Живаго</title>
+        <author>Борис Пастернак</author>
+        <publisher>ЛитРес</publisher>
+        <volumes>4</volumes>
+        <circulation>500</circulation>
+        <total_volumes>2000</total_volumes>
+    </book>
+    <book>
+        <title>Илиада</title>
+        <author>Гомер</author>
+        <publisher>Питер</publisher>
+        <volumes>6</volumes>
+        <circulation>550</circulation>
+        <total_volumes>3300</total_volumes>
+    </book>
+    <book>
+        <title>Гранатовый браслет</title>
+        <author>Александр Куприн</author>
+        <publisher>Альпина</publisher>
+        <volumes>2</volumes>
+        <circulation>400</circulation>
+        <total_volumes>800</total_volumes>
+    </book>
+    <book>
+        <title>Механический апельсин</title>
+        <author>Энтони Бёрджесс</author>
+        <publisher>МИФ</publisher>
+        <volumes>3</volumes>
+        <circulation>450</circulation>
+        <total_volumes>1350</total_volumes>
+    </book>
+    <book>
+        <title>Жизнь взаймы</title>
+        <author>Эрих Мария Ремарк</author>
+        <publisher>Corpus</publisher>
+        <volumes>4</volumes>
+        <circulation>500</circulation>
+        <total_volumes>2000</total_volumes>
+    </book>
+    <book>
+        <title>Похвалы глупости</title>
+        <author>Эразм Роттердамский</author>
+        <publisher>ЛитРес</publisher>
+        <volumes>2</volumes>
+        <circulation>350</circulation>
+        <total_volumes>700</total_volumes>
+    </book>
+    <book>
+        <title>Собака на сене</title>
+        <author>Лопе де Вега</author>
+        <publisher>Питер</publisher>
+        <volumes>2</volumes>
+        <circulation>400</circulation>
+        <total_volumes>800</total_volumes>
+    </book>
+    <book>
+        <title>Москва-Петушки</title>
+        <author>Венедикт Ерофеев</author>
+        <publisher>Альпина</publisher>
+        <volumes>3</volumes>
+        <circulation>450</circulation>
+        <total_volumes>1350</total_volumes>
+    </book>
+    <book>
+        <title>Тевье-молочник</title>
+        <author>Шолом-Алейхем</author>
+        <publisher>МИФ</publisher>
+        <volumes>4</volumes>
+        <circulation>500</circulation>
+        <total_volumes>2000</total_volumes>
+    </book>
+    <book>
+        <title>Записки юного врача</title>
+        <author>Михаил Булгаков</author>
+        <publisher>Corpus</publisher>
+        <volumes>2</volumes>
+        <circulation>400</circulation>
+        <total_volumes>800</total_volumes>
+    </book>
+    <book>
+        <title>Путешествие к центру Земли</title>
+        <author>Жюль Верн</author>
+        <publisher>ЛитРес</publisher>
+        <volumes>3</volumes>
+        <circulation>550</circulation>
+        <total_volumes>1650</total_volumes>
+    </book>
+    <book>
+        <title>Репка</title>
+        <author>Русская народная сказка</author>
+        <publisher>Питер</publisher>
+        <volumes>1</volumes>
+        <circulation>600</circulation>
+        <total_volumes>600</total_volumes>
+    </book>
+    <book>
+        <title>Смерть Артема</title>
+        <author>Эмиль Золя</author>
+        <publisher>Альпина</publisher>
+        <volumes>5</volumes>
+        <circulation>450</circulation>
+        <total_volumes>2250</total_volumes>
+    </book>
+    <book>
+        <title>Маленький горбун</title>
+        <author>Шарль Перро</author>
+        <publisher>МИФ</publisher>
+        <volumes>2</volumes>
+        <circulation>400</circulation>
+        <total_volumes>800</total_volumes>
+    </book>
+    <book>
+        <title>Легенда о Сонной Лощине</title>
+        <author>Вашингтон Ирвинг</author>
+        <publisher>Corpus</publisher>
+        <volumes>2</volumes>
+        <circulation>350</circulation>
+        <total_volumes>700</total_volumes>
+    </book>
+    <book>
+        <title>Мир глазами Гарпа</title>
+        <author>Джон Ирвинг</author>
+        <publisher>ЛитРес</publisher>
+        <volumes>4</volumes>
+        <circulation>500</circulation>
+        <total_volumes>2000</total_volumes>
+    </book>
+</books>

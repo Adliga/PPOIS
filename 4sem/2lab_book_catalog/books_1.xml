@@ -1,0 +1,403 @@
+<?xml version='1.0' encoding='utf-8'?>
+<books>
+    <book>
+        <title>1984</title>
+        <author>Джордж Оруэлл</author>
+        <publisher>АСТ</publisher>
+        <volumes>3</volumes>
+        <circulation>600</circulation>
+        <total_volumes>1800</total_volumes>
+    </book>
+    <book>
+        <title>Великий Гэтсби</title>
+        <author>Фрэнсис Скотт Фицджеральд</author>
+        <publisher>Эксмо</publisher>
+        <volumes>2</volumes>
+        <circulation>450</circulation>
+        <total_volumes>900</total_volumes>
+    </book>
+    <book>
+        <title>Над пропастью во ржи</title>
+        <author>Джером Д. Сэлинджер</author>
+        <publisher>Азбука</publisher>
+        <volumes>4</volumes>
+        <circulation>500</circulation>
+        <total_volumes>2000</total_volumes>
+    </book>
+    <book>
+        <title>Мастер и Маргарита</title>
+        <author>Михаил Булгаков</author>
+        <publisher>Астрель</publisher>
+        <volumes>5</volumes>
+        <circulation>550</circulation>
+        <total_volumes>2750</total_volumes>
+    </book>
+    <book>
+        <title>Гордость и предубеждение</title>
+        <author>Джейн Остин</author>
+        <publisher>Слово</publisher>
+        <volumes>3</volumes>
+        <circulation>400</circulation>
+        <total_volumes>1200</total_volumes>
+    </book>
+    <book>
+        <title>Преступление и наказание</title>
+        <author>Фёдор Достоевский</author>
+        <publisher>АСТ</publisher>
+        <volumes>4</volumes>
+        <circulation>500</circulation>
+        <total_volumes>2000</total_volumes>
+    </book>
+    <book>
+        <title>Сто лет одиночества</title>
+        <author>Габриэль Гарсия Маркес</author>
+        <publisher>Эксмо</publisher>
+        <volumes>5</volumes>
+        <circulation>450</circulation>
+        <total_volumes>2250</total_volumes>
+    </book>
+    <book>
+        <title>Грозовой перевал</title>
+        <author>Эмили Бронте</author>
+        <publisher>Росмэн</publisher>
+        <volumes>2</volumes>
+        <circulation>350</circulation>
+        <total_volumes>700</total_volumes>
+    </book>
+    <book>
+        <title>О дивный новый мир</title>
+        <author>Олдос Хаксли</author>
+        <publisher>АСТ</publisher>
+        <volumes>3</volumes>
+        <circulation>500</circulation>
+        <total_volumes>1500</total_volumes>
+    </book>
+    <book>
+        <title>Анна Каренина</title>
+        <author>Лев Толстой</author>
+        <publisher>Азбука</publisher>
+        <volumes>5</volumes>
+        <circulation>600</circulation>
+        <total_volumes>3000</total_volumes>
+    </book>
+    <book>
+        <title>Дон Кихот</title>
+        <author>Мигель де Сервантес</author>
+        <publisher>Астрель</publisher>
+        <volumes>4</volumes>
+        <circulation>400</circulation>
+        <total_volumes>1600</total_volumes>
+    </book>
+    <book>
+        <title>Портрет Дориана Грея</title>
+        <author>Оскар Уайльд</author>
+        <publisher>Слово</publisher>
+        <volumes>2</volumes>
+        <circulation>300</circulation>
+        <total_volumes>600</total_volumes>
+    </book>
+    <book>
+        <title>Война и мир</title>
+        <author>Лев Толстой</author>
+        <publisher>Эксмо</publisher>
+        <volumes>6</volumes>
+        <circulation>700</circulation>
+        <total_volumes>4200</total_volumes>
+    </book>
+    <book>
+        <title>Франкенштейн</title>
+        <author>Мэри Шелли</author>
+        <publisher>Росмэн</publisher>
+        <volumes>3</volumes>
+        <circulation>450</circulation>
+        <total_volumes>1350</total_volumes>
+    </book>
+    <book>
+        <title>Дракула</title>
+        <author>Брэм Стокер</author>
+        <publisher>АСТ</publisher>
+        <volumes>4</volumes>
+        <circulation>500</circulation>
+        <total_volumes>2000</total_volumes>
+    </book>
+    <book>
+        <title>Идиот</title>
+        <author>Фёдор Достоевский</author>
+        <publisher>Азбука</publisher>
+        <volumes>5</volumes>
+        <circulation>550</circulation>
+        <total_volumes>2750</total_volumes>
+    </book>
+    <book>
+        <title>Остров сокровищ</title>
+        <author>Роберт Льюис Стивенсон</author>
+        <publisher>Астрель</publisher>
+        <volumes>2</volumes>
+        <circulation>400</circulation>
+        <total_volumes>800</total_volumes>
+    </book>
+    <book>
+        <title>Джейн Эйр</title>
+        <author>Шарлотта Бронте</author>
+        <publisher>Эксмо</publisher>
+        <volumes>3</volumes>
+        <circulation>450</circulation>
+        <total_volumes>1350</total_volumes>
+    </book>
+    <book>
+        <title>Процесс</title>
+        <author>Франц Кафка</author>
+        <publisher>АСТ</publisher>
+        <volumes>2</volumes>
+        <circulation>350</circulation>
+        <total_volumes>700</total_volumes>
+    </book>
+    <book>
+        <title>Маленький принц</title>
+        <author>Антуан де Сент-Экзюпери</author>
+        <publisher>Росмэн</publisher>
+        <volumes>1</volumes>
+        <circulation>600</circulation>
+        <total_volumes>600</total_volumes>
+    </book>
+    <book>
+        <title>Тень ветра</title>
+        <author>Карлос Руис Сафон</author>
+        <publisher>Азбука</publisher>
+        <volumes>4</volumes>
+        <circulation>500</circulation>
+        <total_volumes>2000</total_volumes>
+    </book>
+    <book>
+        <title>Бесы</title>
+        <author>Фёдор Достоевский</author>
+        <publisher>Эксмо</publisher>
+        <volumes>5</volumes>
+        <circulation>500</circulation>
+        <total_volumes>2500</total_volumes>
+    </book>
+    <book>
+        <title>Унесённые ветром</title>
+        <author>Маргарет Митчелл</author>
+        <publisher>АСТ</publisher>
+        <volumes>4</volumes>
+        <circulation>600</circulation>
+        <total_volumes>2400</total_volumes>
+    </book>
+    <book>
+        <title>Алхимик</title>
+        <author>Пауло Коэльо</author>
+        <publisher>Азбука</publisher>
+        <volumes>2</volumes>
+        <circulation>450</circulation>
+        <total_volumes>900</total_volumes>
+    </book>
+    <book>
+        <title>Тёмные начала</title>
+        <author>Филип Пулман</author>
+        <publisher>Росмэн</publisher>
+        <volumes>3</volumes>
+        <circulation>400</circulation>
+        <total_volumes>1200</total_volumes>
+    </book>
+    <book>
+        <title>Имя ветра</title>
+        <author>Патрик Ротфусс</author>
+        <publisher>Астрель</publisher>
+        <volumes>4</volumes>
+        <circulation>500</circulation>
+        <total_volumes>2000</total_volumes>
+    </book>
+    <book>
+        <title>Кладбище домашних животных</title>
+        <author>Стивен Кинг</author>
+        <publisher>АСТ</publisher>
+        <volumes>3</volumes>
+        <circulation>550</circulation>
+        <total_volumes>1650</total_volumes>
+    </book>
+    <book>
+        <title>Гамлет</title>
+        <author>Уильям Шекспир</author>
+        <publisher>Слово</publisher>
+        <volumes>2</volumes>
+        <circulation>350</circulation>
+        <total_volumes>700</total_volumes>
+    </book>
+    <book>
+        <title>Мёртвые души</title>
+        <author>Николай Гоголь</author>
+        <publisher>Эксмо</publisher>
+        <volumes>3</volumes>
+        <circulation>450</circulation>
+        <total_volumes>1350</total_volumes>
+    </book>
+    <book>
+        <title>Парфюмер</title>
+        <author>Патрик Зюскинд</author>
+        <publisher>Азбука</publisher>
+        <volumes>2</volumes>
+        <circulation>400</circulation>
+        <total_volumes>800</total_volumes>
+    </book>
+    <book>
+        <title>Дюна</title>
+        <author>Фрэнк Герберт</author>
+        <publisher>АСТ</publisher>
+        <volumes>5</volumes>
+        <circulation>600</circulation>
+        <total_volumes>3000</total_volumes>
+    </book>
+    <book>
+        <title>Отцы и дети</title>
+        <author>Иван Тургенев</author>
+        <publisher>Астрель</publisher>
+        <volumes>3</volumes>
+        <circulation>400</circulation>
+        <total_volumes>1200</total_volumes>
+    </book>
+    <book>
+        <title>Братья Карамазовы</title>
+        <author>Фёдор Достоевский</author>
+        <publisher>Эксмо</publisher>
+        <volumes>5</volumes>
+        <circulation>550</circulation>
+        <total_volumes>2750</total_volumes>
+    </book>
+    <book>
+        <title>Скотный двор</title>
+        <author>Джордж Оруэлл</author>
+        <publisher>Азбука</publisher>
+        <volumes>2</volumes>
+        <circulation>500</circulation>
+        <total_volumes>1000</total_volumes>
+    </book>
+    <book>
+        <title>Герой нашего времени</title>
+        <author>Михаил Лермонтов</author>
+        <publisher>Росмэн</publisher>
+        <volumes>2</volumes>
+        <circulation>350</circulation>
+        <total_volumes>700</total_volumes>
+    </book>
+    <book>
+        <title>Песнь льда и пламени</title>
+        <author>Джордж Р. Р. Мартин</author>
+        <publisher>АСТ</publisher>
+        <volumes>6</volumes>
+        <circulation>700</circulation>
+        <total_volumes>4200</total_volumes>
+    </book>
+    <book>
+        <title>Горе от ума</title>
+        <author>Александр Грибоедов</author>
+        <publisher>Астрель</publisher>
+        <volumes>1</volumes>
+        <circulation>300</circulation>
+        <total_volumes>300</total_volumes>
+    </book>
+    <book>
+        <title>Три товарища</title>
+        <author>Эрих Мария Ремарк</author>
+        <publisher>Эксмо</publisher>
+        <volumes>3</volumes>
+        <circulation>450</circulation>
+        <total_volumes>1350</total_volumes>
+    </book>
+    <book>
+        <title>Двенадцать стульев</title>
+        <author>Илья Ильф, Евгений Петров</author>
+        <publisher>Азбука</publisher>
+        <volumes>2</volumes>
+        <circulation>400</circulation>
+        <total_volumes>800</total_volumes>
+    </book>
+    <book>
+        <title>Код да Винчи</title>
+        <author>Дэн Браун</author>
+        <publisher>АСТ</publisher>
+        <volumes>4</volumes>
+        <circulation>550</circulation>
+        <total_volumes>2200</total_volumes>
+    </book>
+    <book>
+        <title>Властелин колец</title>
+        <author>Дж. Р. Р. Толкин</author>
+        <publisher>Эксмо</publisher>
+        <volumes>6</volumes>
+        <circulation>600</circulation>
+        <total_volumes>3600</total_volumes>
+    </book>
+    <book>
+        <title>Собачье сердце</title>
+        <author>Михаил Булгаков</author>
+        <publisher>Азбука</publisher>
+        <volumes>2</volumes>
+        <circulation>350</circulation>
+        <total_volumes>700</total_volumes>
+    </book>
+    <book>
+        <title>Аэропорт</title>
+        <author>Артур Хейли</author>
+        <publisher>Росмэн</publisher>
+        <volumes>3</volumes>
+        <circulation>400</circulation>
+        <total_volumes>1200</total_volumes>
+    </book>
+    <book>
+        <title>Евгений Онегин</title>
+        <author>Александр Пушкин</author>
+        <publisher>Астрель</publisher>
+        <volumes>2</volumes>
+        <circulation>450</circulation>
+        <total_volumes>900</total_volumes>
+    </book>
+    <book>
+        <title>Цветы для Элджернона</title>
+        <author>Дэниел Киз</author>
+        <publisher>Эксмо</publisher>
+        <volumes>3</volumes>
+        <circulation>500</circulation>
+        <total_volumes>1500</total_volumes>
+    </book>
+    <book>
+        <title>Зелёная миля</title>
+        <author>Стивен Кинг</author>
+        <publisher>АСТ</publisher>
+        <volumes>4</volumes>
+        <circulation>550</circulation>
+        <total_volumes>2200</total_volumes>
+    </book>
+    <book>
+        <title>Солярис</title>
+        <author>Станислав Лем</author>
+        <publisher>Азбука</publisher>
+        <volumes>2</volumes>
+        <circulation>400</circulation>
+        <total_volumes>800</total_volumes>
+    </book>
+    <book>
+        <title>Вино из одуванчиков</title>
+        <author>Рэй Брэдбери</author>
+        <publisher>Эксмо</publisher>
+        <volumes>3</volumes>
+        <circulation>450</circulation>
+        <total_volumes>1350</total_volumes>
+    </book>
+    <book>
+        <title>Хроники Нарнии</title>
+        <author>Клайв С. Льюис</author>
+        <publisher>Росмэн</publisher>
+        <volumes>5</volumes>
+        <circulation>600</circulation>
+        <total_volumes>3000</total_volumes>
+    </book>
+    <book>
+        <title>Метро 2033</title>
+        <author>Дмитрий Глуховский</author>
+        <publisher>АСТ</publisher>
+        <volumes>4</volumes>
+        <circulation>500</circulation>
+        <total_volumes>2000</total_volumes>
+    </book>
+</books>
