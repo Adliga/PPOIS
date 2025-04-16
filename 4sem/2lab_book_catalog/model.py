@@ -109,15 +109,3 @@ class BookModel:
             ET.SubElement(book_elem, "total_volumes").text = str(record.total_volumes)
         tree = ET.ElementTree(root)
         tree.write(filename, encoding="utf-8", xml_declaration=True)
-
-    def update_results(self):
-        """Обновляет таблицу результатов"""
-        self.result_table.setRowCount(0)
-        for row, record in enumerate(self.filtered_records):
-            self.result_table.insertRow(row)
-            self.result_table.setItem(row, 0, QTableWidgetItem(record.title))
-            self.result_table.setItem(row, 1, QTableWidgetItem(record.author))
-            self.result_table.setItem(row, 2, QTableWidgetItem(record.publisher))
-            self.result_table.setItem(row, 3, QTableWidgetItem(str(record.volumes)))
-            self.result_table.setItem(row, 4, QTableWidgetItem(str(record.circulation)))
-            self.result_table.setItem(row, 5, QTableWidgetItem(str(record.total_volumes)))

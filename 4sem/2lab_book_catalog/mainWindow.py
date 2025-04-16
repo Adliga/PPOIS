@@ -17,38 +17,38 @@ class MainWindow(QMainWindow, PaginatedTableMixin):
 
         self.setStyleSheet("""
             QMainWindow {
-                background-color: #B2DFDB;  /* Бледный бирюзовый фон */
+                background-color: #B2DFDB;  
             }
             QWidget {
-                background-color: #B2DFDB;  /* Тот же фон для центрального виджета */
+                background-color: #B2DFDB;  
             }
             QTableWidget {
-                background-color: #E6F3F2;  /* Очень светлый фон таблицы */
-                alternate-background-color: #CCECE9;  /* Чередующиеся строки */
-                color: #000000;  /* Чёрный текст для читаемости */
+                background-color: #E6F3F2; 
+                alternate-background-color: #CCECE9;  
+                color: #000000; 
             }
             QTableWidget::item {
-                border: 1px solid #B0BEC5;  /* Тонкая серая рамка для ячеек */
+                border: 1px solid #B0BEC5;  
             }
             QHeaderView::section {
-                background-color: #4DB6AC;  /* Заголовки таблицы */
+                background-color: #4DB6AC; 
                 color: white;
                 padding: 5px;
                 border: 1px solid #00695C;
             }
             QPushButton {
-                background-color: #4DB6AC;  /* Кнопки */
+                background-color: #4DB6AC;  
                 color: white;
                 border: 1px solid #00695C;
                 padding: 5px;
                 border-radius: 3px;
             }
             QPushButton:hover {
-                background-color: #80CBC4;  /* Цвет при наведении */
+                background-color: #80CBC4;  
             }
             QLineEdit, QSpinBox, QComboBox {
-                background-color: #FFFFFF;  /* Белый фон для полей ввода */
-                border: 1px solid #4DB6AC;  /* Бирюзовая рамка */
+                background-color: #FFFFFF;  
+                border: 1px solid #4DB6AC;  
                 padding: 3px;
                 color: #000000;
             }
@@ -56,7 +56,7 @@ class MainWindow(QMainWindow, PaginatedTableMixin):
                 border-left: 1px solid #4DB6AC;
             }
             QLabel {
-                color: #000000;  /* Чёрный текст для меток */
+                color: #000000;  
                 background-color: transparent;
             }
         """)
@@ -100,7 +100,6 @@ class MainWindow(QMainWindow, PaginatedTableMixin):
         toolbar.addAction(self.delete_action_tb)
 
     def connect_actions(self, controller):
-        """Подключает действия пользователя к методам контроллера."""
         self.load_action.triggered.connect(controller.load_data)
         self.save_action.triggered.connect(controller.save_data)
         self.search_action.triggered.connect(controller.open_search_dialog)
@@ -133,9 +132,7 @@ class MainWindow(QMainWindow, PaginatedTableMixin):
         central_widget.setLayout(layout)
 
     def get_records_for_page(self):
-        """Возвращает записи для текущей страницы."""
         return self.controller.model.get_records()
 
     def update_table(self):
-        """Обновляет таблицу с учётом текущей страницы."""
         self.update_table_with_records(self.table, self.get_records_for_page())
